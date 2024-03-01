@@ -17,3 +17,4 @@ jobs:
         with:
           environment-file: climate-keeling.yml
           environment-name: climate-keeling
+          generate-run-shell: false
