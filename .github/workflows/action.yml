@@ -12,9 +12,7 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v4
 
-      - run: ls climate-keeling.yml
-
       - name: setup micromamba
         uses: mamba-org/setup-micromamba@v1
         with:
-          environment-file: ./climate-keeling.yml
+          environment-file: ${GITHUB_WORKSPACE}//climate-keeling.yml
