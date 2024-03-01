@@ -17,4 +17,3 @@ jobs:
         with:
           activate-environment: climate-keeling
           environment-file: climate-keeling.yml
-          environment-name: climate-keeling
