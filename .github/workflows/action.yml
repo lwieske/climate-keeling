@@ -15,4 +15,4 @@ jobs:
       - name: setup micromamba
         uses: mamba-org/setup-micromamba@v1
         with:
-          environment-file: ${GITHUB_WORKSPACE}//climate-keeling.yml
+          environment-file: ${{ github.workspace }}/climate-keeling.yml
