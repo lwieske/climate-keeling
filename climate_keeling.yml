@@ -1,0 +1,19 @@
+############################################
+# climate-keeling
+############################################
+#
+# % mamba env remove -n climate-keeling
+#
+# % mamba env create -f climate_keeling.yml
+#
+# % mamba env remove -n climate-keeling ; mamba env create -f climate_keeling.yml
+#
+
+name: climate-keeling
+dependencies:
+  - python
+  - pip
+  - jupyter
+  - matplotlib
+  - pandas
+  
