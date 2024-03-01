@@ -12,6 +12,8 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v4
 
+      - run: ls
+
       - name: setup micromamba
         uses: mamba-org/setup-micromamba@v1
         with:
